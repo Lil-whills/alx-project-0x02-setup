@@ -5,6 +5,7 @@ export default function Header() {
     <header className="bg-gray-800 text-white p-4 flex space-x-4">
       <Link href="/home" className="hover:text-blue-400">Home</Link>
       <Link href="/about" className="hover:text-green-400">About</Link>
+      <Link href="/posts" className="hover:text-gray-600">Posts</Link>
     </header>
   );
 }
