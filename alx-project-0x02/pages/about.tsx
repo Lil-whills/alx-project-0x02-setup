@@ -1,12 +1,14 @@
 
-function AboutPage(){
-  return(
-    <>
-      <div className="text-center mt-20 bg-blue-500">
-        <h1 className="text-white pt-4 pb-4 px-2 py-2">This is the About page. Our services to you</h1>
-      </div>
-    </>
-    
-  )
+import React from 'react';
+import Button from '@/components/common/Button';
+
+export default function AboutPage() {
+  return (
+    <div className="p-6 space-y-4">
+      <h1 className="text-2xl font-bold">About Page</h1>
+      <Button label="Small Button" size="small" shape="rounded-sm" />
+      <Button label="Medium Button" size="medium" shape="rounded-md" />
+      <Button label="Large Button" size="large" shape="rounded-full" />
+    </div>
+  );
 }
-export default AboutPage;
